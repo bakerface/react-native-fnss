@@ -1,0 +1,37 @@
+{
+  "name": "react-native-fnss",
+  "version": "1.0.0",
+  "description": "Functional StyleSheets for React Native",
+  "author": "Chris Baker <mail.chris.baker@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "function",
+    "stylesheet",
+    "style",
+    "react",
+    "native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakerface/react-native-fnss.git"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "xo": {
+    "space": 2,
+    "esnext": false
+  },
+  "peerDependencies": {
+    "fnss": "^1.2.1",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "fnss": "^1.2.1",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.47.1",
+    "xo": "^0.18.2"
+  }
+}
